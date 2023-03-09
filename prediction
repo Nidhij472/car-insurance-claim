@@ -1,0 +1,6 @@
+import joblib
+
+
+def predict(data):
+    final_model = joblib.load("model.sav")
+    return final_model.predict(data)
