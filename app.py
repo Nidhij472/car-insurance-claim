@@ -6,7 +6,7 @@ from prediction import predict
 st.title('Predicting Car Insurance claim')
 
 st.text('')
-if st.button("Predict type of Iris"):
+if st.button("Claim"):
     result = predict(
-        np.array([[sepal_l, sepal_w, petal_l, petal_w]]))
+        np.array([[claim_yes,claim_no]]))
     st.text(result[0])
