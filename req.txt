@@ -4,4 +4,3 @@ sklearn
 xgboost
 imbalanced-learn
 joblib
-prediction
